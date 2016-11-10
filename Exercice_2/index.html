@@ -1,14 +1,25 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <script src="jquery-2.2.4.js"></script>
-    <title>Exercice 2</title>
-  </head>
-  <body>
-      <img src="images/image.jpg" id="image" />
-      <script>
+<head>
+  <meta charset="utf-8">
+  <script src="https://code.jquery.com/jquery-3.1.1.js" integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA=" crossorigin="anonymous"></script>
+   <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/jquery-ui.min.js"></script>
+  <title>Exercice 1</title>
+</head>
+<body>
 
-      </script>
-  </body>
+  <div id="dv"hidden="hidden"title="Bonjour!!!">
+      je suis là coucou !!!!!
+  </div>
+  <form>
+    <button id="clique-moi" >Clique-moi !</button>
+  </form>
+  <script type="text/javascript">
+
+    $('#clique-moi').click(function(){
+    $('#dv').dialog();
+
+  });
+  </script>
+</body>
 </html>
