@@ -20,3 +20,6 @@ Quand un champ a le focus, définir sa bordure à "1px solid green". Quand le ch
 
 ##Exercice 6
 Au passage de la souris sur un bouton de couleur, colorer le texte. Le texte doit redevenir noir quand la souris quitte le bouton.
+
+
+https://rawgit.com/sylvain66/jquery-exercises-base2/tree/master/Exercice_1
